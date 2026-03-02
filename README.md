@@ -1,64 +1,176 @@
-# AWS Zero-to-Hero
 <img src="https://github.com/bhuvan-raj/AWS-Zero-to-Hero/blob/main/assets/z2h.jpeg" alt="Banner" />
-AWS Zero-to-Hero is a comprehensive learning repository that takes you from cloud fundamentals to advanced AWS concepts through clear explanations, hands-on labs, real-world examples, and best-practice architectures
 
+<div align="center">
 
-# Table of Context
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Level](https://img.shields.io/badge/Level-Beginner%20to%20Advanced-purple?style=for-the-badge)
+![IAM](https://img.shields.io/badge/IAM-Security-red?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![S3](https://img.shields.io/badge/S3-Storage-569A31?style=for-the-badge&logo=amazon-s3&logoColor=white)
+![VPC](https://img.shields.io/badge/VPC-Networking-blue?style=for-the-badge)
+![Contributions](https://img.shields.io/badge/Contributions-Welcome-brightgreen?style=for-the-badge)
 
+# AWS — Zero to Hero
 
+### ☁️ From cloud fundamentals to advanced AWS architecture — comprehensive explanations, hands-on labs, and real-world best practices.
 
-### 1. Introduction to Cloud Computing
-* **Description:** This section introduces the fundamentals of cloud computing, explaining what cloud computing is, why it is needed, and how it differs from traditional IT infrastructure. It covers key characteristics, benefits, service models, and real-world use cases that form the foundation for understanding modern cloud platforms like AWS.
-* **Explore:** Navigate to [Introduction to Cloud Computing](./Introduction%20to%20cloud%20computing/) for detailed information.
-  
-### 2. Cloud Deployment and Service Models
-* **Description:** This section explains how cloud environments are designed and consumed. It covers different cloud deployment models such as Public, Private, Hybrid, and Community cloud, along with cloud service models including IaaS, PaaS, and SaaS, helping learners understand architectural and usage choices in cloud computing.
-* **Explore:** Navigate to [Cloud Deployment and Service Models](./Cloud%20Deployment%20and%20Service%20Models/) for detailed information.
+</div>
 
-### 3. Introduction to AWS
-* **Description:** This section provides an overview of Amazon Web Services (AWS), introducing its global infrastructure, core concepts such as Regions, Availability Zones, and Edge Locations, and a high-level understanding of essential AWS services that form the foundation of the AWS cloud platform.
-* **Explore:** Navigate to [Introduction to AWS](./Introduction%20to%20AWS/) for detailed information.
+---
 
-### 4. AWS Identity and Access Management (IAM)
-* **Description:** This section provides a detailed understanding of AWS Identity and Access Management (IAM), covering authentication and authorization concepts, IAM users, groups, roles, and policies. It explains how access to AWS resources is securely managed and how least-privilege principles are implemented in real-world AWS environments.
-* **Explore:** Navigate to [AWS Identity and Access Management](./AWS%20Identity%20and%20Access%20Management/) for detailed information.
-   - [Introduction to AWS IAM](./AWS%20Identity%20and%20Access%20Management/Introduction%20to%20aws%20iam/)
-   - [Roles and Policies in IAM](./AWS%20Identity%20and%20Access%20Management/Roles%20and%20Policies%20in%20IAM/)
-   - [Policy Evaluation and Cross Account Access](./AWS%20Identity%20and%20Access%20Management/Policy%20Evaluation%20&%20Cross%20Account%20Access/)
-   - [AWS Organisation, SCPs and Identity Center](./AWS%20Identity%20and%20Access%20Management/AWS%20Organisation,%20SCPs%20and%20Identity%20Center/)
-   - [Single Sign-On](./AWS%20Identity%20and%20Access%20Management/Single%20Sign-On/)
+## 📖 About This Repository
 
-### 5. AWS Simple Storage Service (Amazon S3)
+**AWS Zero to Hero** is a structured, project-based learning repository designed to take you from understanding the basics of cloud computing all the way through deploying secure, scalable, and highly available architectures on Amazon Web Services.
 
-* **Description:** This section provides a detailed understanding of Amazon Simple Storage Service (S3), covering core storage concepts such as buckets, objects, storage classes, and data durability. It explains how S3 is used to store, manage, secure, and retrieve data at scale, along with common real-world use cases like backups, static website hosting, and data lakes.
-* **Explore:** Navigate to [AWS Simple Storage Service](./AWS%20Simple%20Storage%20Service(S3)) for detailed information.
-    - [Cloud Storage & S3 Fundamentals](./AWS%20Simple%20Storage%20Service(S3)/Cloud%20Storage%20&%20S3%20Fundamentals/)
-    - [S3 Bucket Types & Architecture](./AWS%20Simple%20Storage%20Service(S3)/S3%20Bucket%20Types%20&%20Architecture/)
-    -  [Objects,Bucket Versioning,Storage Classes & Cost Optimization](./AWS%20Simple%20Storage%20Service(S3)/Objects,%20Storage%20Classes%20&%20Cost%20Optimization/)
-    - [S3 Limits,Multipart upload & Replication](./AWS%20Simple%20Storage%20Service(S3)/S3%20Limits%20,%20Multipart%20upload%20&%20Replication/)
-    - [Object Ownerships and Bucket ACLs](./AWS%20Simple%20Storage%20Service(S3)/Object%20Ownerships%20and%20Bucket%20ACLs/)
-    - [S3 Static Website hosting](./AWS%20Simple%20Storage%20Service(S3)/S3%20Static%20Website%20hosting/)
-    - [Requestor Pays & Server Access Logging ](./AWS%20Simple%20Storage%20Service(S3)/Requestor%20Pays%20&%20Server%20Access%20Logging/)
-    - [Lifecycle Configuration](./AWS%20Simple%20Storage%20Service(S3)/Lifecycle%20Configuration/)
-    - [Bucket Policy](./AWS%20Simple%20Storage%20Service(S3)/Bucket%20Policy/)
-    - [S3 Encryption](./AWS%20Simple%20Storage%20Service(S3)/S3%20Encryption/)
-    - [Transfer Acceleration](./AWS%20Simple%20Storage%20Service(S3)/Transfer%20Acceleration/)
-    - [S3 ABAC](./AWS%20Simple%20Storage%20Service(S3)/S3%20ABAC/)
+Every section is organized into its own folder with a dedicated `README.md` covering in-depth explanations, diagrams, AWS Console walkthroughs, and hands-on labs. The content progresses logically — from foundational cloud concepts to advanced AWS networking and security.
 
+By the end of this course, you will be able to:
 
-### 6. AWS VIRTUAL PRIVATE CLOUD (VPC)
+- ✅ Explain cloud computing concepts, deployment models, and service models
+- ✅ Navigate the AWS global infrastructure — Regions, AZs, and Edge Locations
+- ✅ Implement fine-grained access control using IAM users, roles, policies, and Organizations
+- ✅ Store, secure, and manage data at scale with Amazon S3
+- ✅ Design isolated, secure cloud networks using AWS VPC
+- ✅ Connect and protect VPCs using Peering, Transit Gateway, Endpoints, and DNS Firewall
 
-* **Description:** This section provides a detailed understanding of Amazon Virtual Private Cloud (VPC), covering core networking concepts such as CIDR blocks, subnets, route tables, internet gateways, NAT gateways, security groups, and network ACLs. It explains how AWS enables secure, isolated networking environments and how VPC components are used to design scalable, highly available, and secure cloud architectures in real-world AWS deployments.
-* **Explore:** Navigate to [AWS Virtual Private Cloud](./Virtual%20Private%20Cloud(VPC)) for detailed information.
-  
-     - [Introduction to AWS VPC](./Virtual%20Private%20Cloud(VPC)/Introduction%20to%20VPC/)
-     - [Components of VPC](./Virtual%20Private%20Cloud(VPC)/Components%20of%20VPC/)
-     - [Bastion Hosting and Private Subnet Internet Checking](./Virtual%20Private%20Cloud(VPC)/Bastion%20Hosting/)
-     - [Security Group vs Nacl ](./Virtual%20Private%20Cloud(VPC)/NACL%20vs%20Security%20Groups/)
-     - [VPC Peering ](./Virtual%20Private%20Cloud(VPC)/VPC%20Peering/)
-     - [Virtual Private Network](./Virtual%20Private%20Cloud(VPC)/Virtual%20Private%20Network/)
+---
 
+## 📚 Table of Contents
 
+| # | Topic | Description |
+|---|-------|-------------|
+| 01 | [Introduction to Cloud Computing](#1-introduction-to-cloud-computing) | Cloud fundamentals, characteristics, benefits, and service models |
+| 02 | [Cloud Deployment and Service Models](#2-cloud-deployment-and-service-models) | Public, Private, Hybrid cloud + IaaS, PaaS, SaaS |
+| 03 | [Introduction to AWS](#3-introduction-to-aws) | AWS global infrastructure, Regions, AZs, and core services overview |
+| 04 | [AWS Identity and Access Management (IAM)](#4-aws-identity-and-access-management-iam) | Users, groups, roles, policies, Organizations, SSO, and cross-account access |
+| 05 | [AWS Simple Storage Service (S3)](#5-aws-simple-storage-service-s3) | Buckets, objects, storage classes, encryption, replication, and lifecycle |
+| 06 | [AWS Virtual Private Cloud (VPC)](#6-aws-virtual-private-cloud-vpc) | Subnets, route tables, gateways, peering, Transit Gateway, endpoints, DNS Firewall |
 
+---
 
+## 1. Introduction to Cloud Computing
 
+This section introduces the fundamentals of cloud computing — what it is, why it exists, and how it differs from traditional on-premises IT infrastructure. It covers key characteristics, business benefits, and real-world use cases that form the foundation for understanding modern cloud platforms like AWS.
+
+📂 **[Explore → Introduction to Cloud Computing](./Introduction%20to%20cloud%20computing/)**
+
+---
+
+## 2. Cloud Deployment and Service Models
+
+This section explains how cloud environments are architected and consumed. It covers cloud **deployment models** — Public, Private, Hybrid, and Community — alongside cloud **service models** — IaaS, PaaS, and SaaS — helping you understand the architectural and usage choices available in cloud computing.
+
+📂 **[Explore → Cloud Deployment and Service Models](./Cloud%20Deployment%20and%20Service%20Models/)**
+
+---
+
+## 3. Introduction to AWS
+
+This section provides an overview of Amazon Web Services — its global infrastructure, how AWS organizes compute and storage capacity across Regions and Availability Zones, and a high-level introduction to the essential AWS services that power modern cloud applications.
+
+📂 **[Explore → Introduction to AWS](./Introduction%20to%20AWS/)**
+
+---
+
+## 4. AWS Identity and Access Management (IAM)
+
+This section provides a detailed understanding of AWS IAM — how authentication and authorization work in AWS, and how to implement the principle of least privilege at every layer of your environment.
+
+📂 **[Explore → AWS Identity and Access Management](./AWS%20Identity%20and%20Access%20Management/)**
+
+| # | Sub-Topic | Description |
+|---|-----------|-------------|
+| 4.1 | [Introduction to AWS IAM](./AWS%20Identity%20and%20Access%20Management/Introduction%20to%20aws%20iam/) | IAM overview, users, groups, and foundational concepts |
+| 4.2 | [Roles and Policies in IAM](./AWS%20Identity%20and%20Access%20Management/Roles%20and%20Policies%20in%20IAM/) | IAM roles, managed vs inline policies, and policy structure |
+| 4.3 | [Policy Evaluation and Cross Account Access](./AWS%20Identity%20and%20Access%20Management/Policy%20Evaluation%20&%20Cross%20Account%20Access/) | How AWS evaluates policies and enables cross-account resource access |
+| 4.4 | [AWS Organizations, SCPs and Identity Center](./AWS%20Identity%20and%20Access%20Management/AWS%20Organisation,%20SCPs%20and%20Identity%20Center/) | Managing multiple accounts, Service Control Policies, and AWS Identity Center |
+| 4.5 | [Single Sign-On (SSO)](./AWS%20Identity%20and%20Access%20Management/Single%20Sign-On/) | Centralized access to AWS accounts and business applications |
+
+---
+
+## 5. AWS Simple Storage Service (S3)
+
+This section provides a detailed understanding of Amazon S3 — how to store, manage, secure, and retrieve data at scale. It covers everything from core concepts to advanced features like encryption, replication, lifecycle policies, and attribute-based access control.
+
+📂 **[Explore → AWS Simple Storage Service](./AWS%20Simple%20Storage%20Service(S3)/)**
+
+| # | Sub-Topic | Description |
+|---|-----------|-------------|
+| 5.1 | [Cloud Storage & S3 Fundamentals](./AWS%20Simple%20Storage%20Service(S3)/Cloud%20Storage%20&%20S3%20Fundamentals/) | What S3 is, core storage concepts, durability, and availability |
+| 5.2 | [S3 Bucket Types & Architecture](./AWS%20Simple%20Storage%20Service(S3)/S3%20Bucket%20Types%20&%20Architecture/) | General-purpose vs directory buckets, flat namespace architecture |
+| 5.3 | [Objects, Storage Classes & Cost Optimization](./AWS%20Simple%20Storage%20Service(S3)/Objects,%20Storage%20Classes%20&%20Cost%20Optimization/) | Object structure, versioning, storage tiers, and cost management |
+| 5.4 | [S3 Limits, Multipart Upload & Replication](./AWS%20Simple%20Storage%20Service(S3)/S3%20Limits%20,%20Multipart%20upload%20&%20Replication/) | Service quotas, uploading large files, and cross-region replication |
+| 5.5 | [Object Ownership and Bucket ACLs](./AWS%20Simple%20Storage%20Service(S3)/Object%20Ownerships%20and%20Bucket%20ACLs/) | Controlling object ownership and access using ACLs |
+| 5.6 | [S3 Static Website Hosting](./AWS%20Simple%20Storage%20Service(S3)/S3%20Static%20Website%20hosting/) | Hosting static websites directly from an S3 bucket |
+| 5.7 | [Requester Pays & Server Access Logging](./AWS%20Simple%20Storage%20Service(S3)/Requestor%20Pays%20&%20Server%20Access%20Logging/) | Cost attribution for data transfer and auditing bucket access |
+| 5.8 | [Lifecycle Configuration](./AWS%20Simple%20Storage%20Service(S3)/Lifecycle%20Configuration/) | Automating object transitions and expirations to reduce costs |
+| 5.9 | [Bucket Policy](./AWS%20Simple%20Storage%20Service(S3)/Bucket%20Policy/) | Resource-based policies for controlling access to S3 buckets |
+| 5.10 | [S3 Encryption](./AWS%20Simple%20Storage%20Service(S3)/S3%20Encryption/) | SSE-S3, SSE-KMS, SSE-C, and client-side encryption |
+| 5.11 | [Transfer Acceleration](./AWS%20Simple%20Storage%20Service(S3)/Transfer%20Acceleration/) | Faster uploads using CloudFront edge locations |
+| 5.12 | [S3 ABAC](./AWS%20Simple%20Storage%20Service(S3)/S3%20ABAC/) | Attribute-Based Access Control for dynamic, tag-driven permissions |
+
+---
+
+## 6. AWS Virtual Private Cloud (VPC)
+
+This section provides a detailed understanding of Amazon VPC — how to design, secure, and connect isolated cloud networks on AWS. It covers core networking components and progresses through advanced connectivity and security topics.
+
+📂 **[Explore → AWS Virtual Private Cloud](./Virtual%20Private%20Cloud(VPC)/)**
+
+| # | Sub-Topic | Description |
+|---|-----------|-------------|
+| 6.1 | [Introduction to AWS VPC](./Virtual%20Private%20Cloud(VPC)/Introduction%20to%20VPC/) | What VPC is, CIDR blocks, and the default VPC |
+| 6.2 | [Components of VPC](./Virtual%20Private%20Cloud(VPC)/Components%20of%20VPC/) | Subnets, route tables, internet gateways, NAT gateways, and Elastic IPs |
+| 6.3 | [Bastion Host and Private Subnet Connectivity](./Virtual%20Private%20Cloud(VPC)/Bastion%20Hosting/) | Securely accessing private subnet instances using a bastion host |
+| 6.4 | [Security Groups vs Network ACLs](./Virtual%20Private%20Cloud(VPC)/NACL%20vs%20Security%20Groups/) | Stateful vs stateless traffic filtering — when to use each |
+| 6.5 | [VPC Peering](./Virtual%20Private%20Cloud(VPC)/VPC%20Peering/) | Direct, private connectivity between two VPCs |
+| 6.6 | [Virtual Private Network (VPN)](./Virtual%20Private%20Cloud(VPC)/Virtual%20Private%20Network/) | Site-to-Site VPN for connecting on-premises networks to AWS |
+| 6.7 | [Transit Gateway](./Virtual%20Private%20Cloud(VPC)/Transit-Gateway/) | Hub-and-spoke routing for connecting multiple VPCs and on-premises networks |
+| 6.8 | [VPC Endpoints](./Virtual%20Private%20Cloud(VPC)/VPC-Endpoint/) | Private access to AWS services without internet or NAT — Gateway and Interface endpoints |
+| 6.9 | [DNS Firewall](./Virtual%20Private%20Cloud(VPC)/DNS-Firewall/) | Filtering outbound DNS queries to block malicious and unauthorized domains |
+
+---
+
+## 🛠️ Prerequisites
+
+Before diving in, make sure you have:
+
+| Requirement | Details |
+|-------------|---------|
+| AWS Account | Free tier account is sufficient for most labs |
+| AWS CLI | Installed and configured (`aws configure`) |
+| Basic Linux | Comfortable with terminal commands |
+| IAM User | With appropriate permissions for each service |
+| Text Editor | VS Code or similar for editing policy documents |
+
+---
+
+## 🚦 Getting Started
+
+```bash
+# Clone this repository
+git clone https://github.com/bhuvan-raj/AWS-Zero-to-Hero.git
+
+# Navigate into the project
+cd AWS-Zero-to-Hero
+
+# Start with the first section
+cd "Introduction to cloud computing"
+```
+
+Each folder contains its own `README.md` with step-by-step explanations, diagrams, AWS Console walkthroughs, and CLI commands. Work through the topics in order for the best learning experience.
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! If you have suggestions for improvements, new examples, or find any issues, feel free to open an issue or submit a pull request.
+
+---
+
+<div align="center">
+
+**Happy Cloud Building! ☁️**
+
+*If this repo helped you, please consider giving it a ⭐*
+
+</div>
