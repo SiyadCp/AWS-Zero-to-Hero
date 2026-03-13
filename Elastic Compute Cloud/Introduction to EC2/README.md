@@ -3,6 +3,7 @@
 ---
 
 ## 1. What is Virtualisation?
+![Virtualisation concept](https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Hardware_Virtualization_%28copy%29.svg/800px-Hardware_Virtualization_%28copy%29.svg.png)
 
 Virtualisation is the process of creating a virtual version of a physical resource — such as a server, storage, or network — using software. Instead of running one operating system on one physical machine, virtualisation allows multiple operating systems to run simultaneously on the same physical hardware.
 
