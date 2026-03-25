@@ -137,6 +137,7 @@ This section covers Amazon EC2 — the backbone of AWS compute. You'll learn how
 | 7.7 | [Tenancy and Tenancy Types](./Elastic%20Compute%20Cloud/Tenancy%20and%20Tenancy%20Types/) | Shared, Dedicated Instance, and Dedicated Host — isolation and compliance |
 | 7.8 | [Webservers](./Elastic%20Compute%20Cloud/Webservers/) | Installing and configuring web servers (Apache/Nginx) on EC2 instances |
 | 7.9 | [Multi-Website in Single Ec2](./Elastic%20Compute%20Cloud/Multi-Server-in-Single-Ec2/) | Installing and configuring Multiple websites in  a single ec2 machine using multiple ips|
+| 8.0 | [ssh-keygen](./Elastic%20Compute%20Cloud/ssh-keygen/) | Generating New key-pair incase we lose private key in our machine|
 
 ---
 
