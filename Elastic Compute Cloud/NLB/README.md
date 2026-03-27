@@ -44,11 +44,8 @@ sudo yum update -y
 sudo yum install httpd -y
 sudo systemctl start httpd
 sudo systemctl enable httpd
-
 echo "Hello from $(hostname)" | sudo tee /var/www/html/index.html
-
-
-⸻
+```
 
 🌐 Step 3: Test Instances Individually
 
